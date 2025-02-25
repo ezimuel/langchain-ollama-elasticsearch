@@ -1,14 +1,15 @@
 # A simple RAG architecture using LangChain + Ollama + Elasticsearch
 
-This is a simple implementation of a classic RAG architecture in Python using
-[LangChain](https://www.langchain.com/), [Ollama](https://ollama.com) and
-[Elasticsearch](https://github.com/elastic/elasticsearch).
+This is a simple implementation of a classic Retrieval-augmented generation (RAG)
+architecture in Python using [LangChain](https://www.langchain.com/), [Ollama](https://ollama.com)
+and [Elasticsearch](https://github.com/elastic/elasticsearch).
 
 ## Install Ollama
 
 If you want to run the examples locally you need to install [Ollama](https://ollama.com/download).
 
-After the installation, you can download Llama 3.2 model at 3B as follows:
+We tested [Llama 3.2](https://www.llama.com/) at 3B as local LLM. 
+You can download this LLM as follows:
 
 ```bash
 ollama pull llama3.2:3b
